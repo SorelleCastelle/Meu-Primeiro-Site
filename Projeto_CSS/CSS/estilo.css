@@ -1,0 +1,48 @@
+body{
+    background-color: #ccc;
+    font-family: arial, sans-serif;
+    margin: auto;
+    }
+
+.hero1{
+    background-image: url(../Imagens/1000-367x267.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 500px;
+}
+
+.hero2{ /* Para formatar todo o header2*/
+    font-family: arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 300px;
+}
+
+.hero2 h1{ /* Para formatar apenas o título h1 do header de classe hero2*/
+    font-size: 46px;
+    text-transform: uppercase; /*Colocar todas as letras em maiúsculas*/
+    text-shadow: 3px 3px 5px #333; /* #px(deslocamento horizontal) #px(deslocamento vertical) #px(embaçado) #px(cor)*/
+}
+
+main{
+    margin: auto;
+    width: 80%;
+}
+
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.rodape{
+    height: 70px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    background-color: yellow;
+    line-height: 70px; /* Para centralizar o texto na altura*/
+}

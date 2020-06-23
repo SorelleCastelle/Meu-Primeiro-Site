@@ -1,0 +1,153 @@
+body{
+    width: 1024px;
+    margin:20px auto;
+    padding: 0px;
+    font-family: tahoma, arial, sans-serif;
+}
+
+header{
+    background: rgb(16, 23, 41);
+    margin: auto;
+    height: 45px;
+    position: relative;
+}
+
+#logo{
+    height: 40px;
+    line-height: 45px;
+    margin-left: 150px;
+}
+
+#menu_principal{
+    background: rgb(16, 23, 41);
+    height: 45px;
+    margin-right: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#menu_principal ol{
+    list-style: none;
+    line-height: 45px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#menu_principal li{
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 0px 10px;
+    letter-spacing: 5px; /*Para aumentar os espaçõs entre as letras*/
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(103, 116, 149);
+    text-transform: uppercase;
+    transition: color 0.3s linear; /* Paraadicionar uma animação de transição quando passar o mouse por cima do link através do hover. 3 valores:tipo de animação; o atraso; a função;*/
+}
+
+a:hover{
+    color:white;    
+}
+
+#imagem_topo{
+    margin-top: 0px;
+    width: 100%;
+}
+
+main{
+    clear: both;
+    text-align: center;
+    padding: 50px 50px 0px 50px;
+}
+
+main h1{
+    text-transform: uppercase;
+    color: rgb(16, 23, 41);
+    font-size: 35px;
+}
+
+main p{
+    color: rgb(16, 23, 41);
+    padding: 0 100px 0 100px;
+    line-height: 2; /* Para aumentar o espaçamento entre as linhas */
+}
+
+#menu_galeria{
+}
+
+#menu_galeria ul{
+}
+
+#menu_galeria li{
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+#menu_galeria h3{
+    margin: 0px;
+    color: rgb(16, 23, 41);
+    text-transform: uppercase;
+}
+
+#menu_galeria p{
+    margin: 0px;
+    color: rgb(16, 23, 41);
+    padding: 0 0 0 0;
+    line-height: normal;
+}
+
+#about_us{
+    background-color: #003d53;
+    text-align: left;
+    padding: 100px;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#about_us h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding: 0 0 0 0;
+    margin: 0 0 20px 0;
+    font-weight: bold; /* Para fazer a fonte ficar em negrito */
+}
+
+#about_us p{
+    color: white;
+    font-size: 20px;
+    margin-top: 0;
+    margin-right: 40%;
+    margin-bottom: 20px;
+    padding: 0 0 0px 0;
+    line-height: 1.5;
+}
+
+#contact{
+    text-align: center;
+}
+
+#contact h2{
+    text-align: center;
+    color: rgb(16, 23, 41);
+}
+
+footer{
+    margin-top: 40px;
+    background: rgb(16, 23, 41);
+    height: 50px;
+}
+
+footer p{
+    text-align: center;
+    color: rgb(103, 116, 149);
+    line-height: 50px;
+    font-size: 15px;
+}

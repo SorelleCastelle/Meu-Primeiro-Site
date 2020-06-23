@@ -1,0 +1,70 @@
+<!DOCTYPE html> <!-- Informa ao agente do usuário a versão do html que deve ser renderizada-->
+<html lang="pt-br"> <!--Para indicar para o browser a linguagem da página-->
+    <head>
+        <title>Meu Primeiro Site</title>
+        <meta charset="utf-8">
+        <meta name="Autor" content="Sorelle Castelle">
+        <meta name="description" content="Nada interessante">
+        <meta name="keywords" content="html, html5">
+        <meta charset="utf-8">
+        
+        <style>
+            
+            li ul{
+                height: 0;
+                overflow: hidden; /*Esconder o conteúdo q excede o tamanho do box*/
+                transition: height 0.5s;
+            }
+            
+            li:hover{
+                background-color: rgba(23, 46, 172, 0.801);
+            }
+            
+            li:hover ul{
+                height: 30px;
+            }        
+            
+            li ul:hover{
+                color: white;
+            }
+            
+        </style>
+        
+    </head>
+
+    <body>
+        
+        <ul>
+            <li>Ítem 1</li>
+            <li>Ítem 2
+                <ul>Ítem 2.1</ul>
+                <ul>Ítem 2.2</ul>
+            </li>
+            <li>Ítem 3</li>
+        </ul>
+        
+        <hr>
+        
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de Programação de Hypertexto</dd>
+            
+            <dt>CSS</dt>
+            <dd>Linguagem para formatação de uma pagina de estilos.</dd>
+        </dl>
+        
+        <hr>
+        
+        <dl>
+            <dt>www</dt>            
+            <dt>internet</dt>
+            <dd>rede mundial de computadores</dd>
+            
+            <dt>JavaScript</dt>
+            <dd>Linguagem escrita para computadores</dd>
+            <dd>script para rodar no browser</dd>
+        </dl>
+
+    </body>
+
+</html>
