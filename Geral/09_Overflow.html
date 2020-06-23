@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+
+    <style>
+        div{
+            border: 2px black solid;
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            float: left;
+            margin: 20px;
+            padding: 10px;
+        }
+        .primeiro{
+            overflow: visible;
+        }
+        .segundo{
+            overflow:hidden;
+        }
+        .terceiro{
+            overflow:scroll;
+        }
+        .quarto{
+            overflow:auto;
+        }
+        .quinto{
+            overflow:unset;
+        }
+    </style>
+</head>
+<body>
+    <div class=primeiro>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque distinctio voluptatum quae necessitatibus sed provident tempora aliquid dolor beatae, quasi, est consectetur, harum placeat veniam eius pariatur vitae. Deleniti, doloribus?</p>
+    </div>
+    
+    <div class=segundo><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ipsa vel pariatur nisi cumque ratione necessitatibus quibusdam exercitationem dolor debitis architecto quia hic esse iure, cupiditate, amet, at dicta! Ut!</p>
+    </div>
+
+    <div class=terceiro><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas adipisci neque delectus harum aspernatur impedit unde. Error fuga dolore ducimus et quas odio omnis, repellendus ipsa non! Quisquam, tempora vitae.</p>
+    </div>
+
+    <div class=quarto><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste reiciendis, nesciunt voluptatum excepturi quam, doloribus est soluta qui atque nobis, culpa aperiam deserunt similique molestias praesentium dolorum voluptatibus! Aliquam, saepe.</p>
+    </div>
+
+    <div class=quinto><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste reiciendis, nesciunt voluptatum excepturi quam, doloribus est soluta qui atque nobis, culpa aperiam deserunt similique molestias praesentium dolorum voluptatibus! Aliquam, saepe.</p>
+    </div>
+
+</body>
+</html>
