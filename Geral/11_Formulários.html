@@ -57,6 +57,88 @@
             </fieldset>
         </form>
 
+        <form action="#" method="POST" class="cadastro">
+            <fieldset>
+
+                <legend>Cadastro</legend>
+
+                <label>Nome:</label>
+                <input required type="text" id="nome" name="nome" autofocus>
+
+                <label>E-mail:</label>
+                <input required type="email" id="email">
+
+                <label>Telefone:</label>
+                <input type="tel" name=" telefone">
+
+                <label>Idade:</label>
+                <input type="number" min="0" max="110" step="0.5" id="idade">
+
+                <label>Filhos:</label>
+                <input type="number" min="0" max="20" id="filhos">
+
+                <label>Nascimento:</label>
+                <input type="date">
+
+                <p>Sexo:</p>
+                <label>
+                    <input type="radio" name="sexo" value="M">
+                    Masculino
+                </label>
+
+                <label>
+                    <input type="radio" name="sexo" value="F">
+                    Feminino
+                </label>
+
+                <label>Estado:</label>
+                <select name="Estado">
+                    <option valeu="0">Selecione</option>
+                    <option valeu="AC">Acre</option>
+                    <option valeu="AM">Amazonas</option>
+                    <option valeu="SP">São Paulo</option>
+                    <option valeu="Rio de Janeiro">Rio de Janeiro</option>
+                    <option valeu="SC">Santa Catarina</option>
+                    <option valeu="CE">Ceará</option>
+                </select>
+
+                <label>Faixa de Preço:</label>
+                <input type="range" min="0" max="10000">
+
+                <p>Cartão:</p>
+                <label>Mês de Vencimento:</label>
+                <input type="hidden" name="mes_venc_cartao">
+            </fieldset>
+
+            <fieldset>
+                <legend>Áreas de Interesse</legend>
+                <label><input type="checkbox" name="HTML5" value="HTML5">HTML5</label>
+                <label><input type="checkbox" name="CSS" value="CSS">CSS</label>
+                <label><input type="checkbox" name="JavaScript" value="JavaScript">JavaScript</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Mensagem</legend>
+                <textarea name="msg" cols="50" rows="20" placeholder="Deixe seus comentários e sugestões."></textarea>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+                <input type="button" value="Cancelar">
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Contrato</legend>
+                <textarea readonly name="msg" cols="50" rows="20">Você concorda em doar seus rins, seu fígado e todos seus órgão para o banco do brasil caso vc não pague suas contas.</textarea>
+
+                <label><input required type="checkbox">Li e Aceito as condições</label>
+
+
+                <input type="submit" value="Enviar">
+            </fieldset>
+
+        </form>
+
     </body>
 
 </html>
